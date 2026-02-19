@@ -1,24 +1,3 @@
-// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import EmployeeList from "./pages/EmployeeList";
-// import Attendance from "./pages/Attendance";
-
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <nav style={{ padding: 16, borderBottom: "1px solid #ddd" }}>
-//         <Link to="/" style={{ marginRight: 16 }}>Employees</Link>
-//         <Link to="/attendance">Attendance</Link>
-//       </nav>
-
-//       <Routes>
-//         <Route path="/" element={<EmployeeList />} />
-//         <Route path="/attendance" element={<Attendance />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-
 
 import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
 import EmployeeList from "./pages/EmployeeList";
@@ -158,7 +137,7 @@ function Nav() {
       <Link to="/" className="app-nav-logo">
         <div className="app-nav-logo-mark">HR</div>
         <span className="app-nav-logo-text">
-          WorkForce<span>.io</span>
+          HRMGMT<span>.io</span>
         </span>
       </Link>
 
